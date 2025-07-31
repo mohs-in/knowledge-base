@@ -35,3 +35,8 @@ document.addEventListener("nav", () => {
   colorSchemeMediaQuery.addEventListener("change", themeChange)
   window.addCleanup(() => colorSchemeMediaQuery.removeEventListener("change", themeChange))
 })
+
+document.addEventListener("themechange", () => {
+  const audio = new Audio("/static/a9f3b2c1.mp3")
+  audio.play()
+})

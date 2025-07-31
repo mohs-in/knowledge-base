@@ -207,20 +207,20 @@ export function renderPage(
     beforeBody,
     pageBody: Content,
     afterBody,
-    left,
+    // left,
     right,
     footer: Footer,
   } = components
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
 
-  const LeftComponent = (
-    <div class="left sidebar">
-      {left.map((BodyComponent) => (
-        <BodyComponent {...componentData} />
-      ))}
-    </div>
-  )
+  // const LeftComponent = (
+  //   <div class="left sidebar">
+  //     {left.map((BodyComponent) => (
+  //       <BodyComponent {...componentData} />
+  //     ))}
+  //   </div>
+  // )
 
   const RightComponent = (
     <div class="right sidebar">
@@ -237,7 +237,10 @@ export function renderPage(
       <body data-slug={slug}>
         <div id="quartz-root" class="page">
           <Body {...componentData}>
-            {LeftComponent}
+            {/* <div class="left sidebar" style={{backgroundColor:"white"}}>
+              
+            </div> */}
+            {/* {LeftComponent} */}
             <div class="center">
               <div class="page-header">
                 <Header {...componentData}>
