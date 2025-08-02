@@ -19,6 +19,10 @@ body {
   background-color: var(--light);
   font-family: var(--bodyFont);
   color: var(--darkgray);
+
+  @media all and ($mobile) {
+    padding-left: 1rem !important;
+  }
 }
 
 .text-highlight {
