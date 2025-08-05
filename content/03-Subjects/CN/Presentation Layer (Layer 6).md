@@ -2,7 +2,7 @@ The presentation layer is mostly responsible for
 
 - **Translation**
   Translates data received from the application layer into the form of ASCII or binary
-  - e.g
+  - e.g.
     - Data: Hello o ASCII: 72 101 108 108 111
     - Binary: 01[001000 0110](tel:0010000110)0101 01[101100 0110](tel:1011000110)1100 01101111
 - **Data Compression**
