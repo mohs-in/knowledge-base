@@ -5,7 +5,7 @@ tags:
   - databases
 ---
 
-The purpose of ER-Diagram or ER-Model  is to get the high level or logical view of the database.
+The purpose of ER-Diagram or ER-Model is to get the high level or logical view of the database.
 
 E - [[Entity]] | R - Relationship
 
