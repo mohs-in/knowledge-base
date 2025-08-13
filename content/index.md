@@ -1,5 +1,5 @@
 ---
-title: Personal Wiki !
+title: Personal Wiki!
 ---
 
 # Hey there, I'm Mohsin! 👋
