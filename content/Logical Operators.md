@@ -3,6 +3,7 @@ tags:
   - sql
   - my-sql
 ---
+
 There are many logical operators such as **AND**, **OR**, **NOT**, **ALL** , **ANY**, **BETWEEN**, **EXISTS**, **IN**, **LIKE**, **SOME**.
 
 Now, let’s look at a few examples
@@ -25,9 +26,7 @@ When **NOT** keyword is used it will just give the result opposite to the condit
 
 The **OR** keyword is used when you want either of the conditions mentioned to be true. In the above example, we will get the movies which are recently released, or the rating is more than 9.5
 
-
 > [!NOTE] Note
 > ALL and ANY are discussed in the Topic Sub Queries
 
 ### BETWEEN
-
