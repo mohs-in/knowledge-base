@@ -10,9 +10,8 @@ aws configure
 aws sts get-caller-identity
 ```
 
-### Retrieves all the users 
+### Retrieves all the users
 
 ```
 aws iam list-users
 ```
-
