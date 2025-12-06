@@ -49,7 +49,7 @@ async function generateSocialImage(
     iconBase64,
   })
 
-  const svg = await satori(imageComponent, {
+  const svg = await satori(imageComponent as any, {
     width,
     height,
     fonts,
